@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://TW-githubs.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Apr 2023 15:42:08 +0800</lastBuildDate><atom:link href="https://TW-githubs.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>心得</title>
+      <link>https://TW-githubs.github.io/post/%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Sat, 01 Apr 2023 15:42:08 +0800</pubDate>
+      
+      <guid>https://TW-githubs.github.io/post/%E5%BF%83%E5%BE%97/</guid>
+      <description>搭建博客心得 1.博客主题及其选取原因 博客主题选的是比较干净的m10c主题，因为单纯作为笔记博客的话搭建不是很费时费力。对于新手来说也是比较友善。此外还有以下优点：
+简约的主题风格更加清晰、直观，不会给读者带来不必要的干扰和混乱。
+简约的主题可以更好地突出博客内容，使内容更加突出、易读。
+简约的主题可以减少博客加载时间，提高博客的速度和性能。
+简约的主题更加容易进行定制和维护，可以让博主更加方便地进行博客管理。
+2.博客主题及其选取原因 博客页面的布局和设计应该是简洁、易于阅读和导航的。我的博客页面：
+页面结构： 导航栏：放置在页面的左侧，可以随时回到目录。 内容区域：文章列表或最新发布的文章。
+颜色和字体： 选择宋体。 颜色简单的黑白搭配。 确保文本和背景颜色的对比度适中，以确保易于阅读。 字体大小和行间距要合适，可以考虑使用1.5倍行距，确保文章易于阅读。
+3.博客制作过程中遇到的问题及其解决方法 刚开始上手有些难度，但是再同学的帮助，给我介绍了一些hugo使用方法，加上百度大哥的帮忙，还是做成了一个建议的小博客，以后的内容也会逐渐增加。
+4.技术汇报 Hugo Hugo 是一款用 Go 语言编写的静态网站生成器，它是一种非常快速、易用、高效、灵活和可扩展的工具，被广泛应用于个人博客、企业官网、文档网站等领域。 与传统的动态网站相比，静态网站具有以下优势：速度快、安全性高、可移植性好、易于托管、无需数据库等。而 Hugo 作为一款静态网站生成器，其主要特点包括：
+1. 极速生成：Hugo 的生成速度非常快，可以在几秒钟之内生成一个包含数百个页面的网站。
+2. 简单易用：Hugo 的使用非常简单，只需要简单的配置和模板，就可以快速生成一个完整的网站。
+3. 高效灵活：Hugo 支持多种页面格式和模板语言，并提供了丰富的插件和主题库，可以轻松定制生成的网站。
+4. 多平台支持：Hugo 可以在 Windows、MacOS 和 Linux 等多个平台上运行，同时支持多语言和多主题。
+总的来说，Hugo 是一款功能强大、易用灵活、快速高效的静态网站生成器，是搭建个人博客或者企业网站的好选择。
+Git Git 是一款分布式版本控制系统，由 Linux 的创始人 Linus Torvalds 开发，目的是为了更好地管理 Linux 内核的开发。Git 可以跟踪文本文件的更改历史，记录每个版本的修改内容，并能够回溯到任意历史版本。Git 能够支持多人协同开发，同时也能够帮助个人开发者更好地管理自己的代码。 Git 的主要特点包括：
+分布式版本控制：每个开发者都可以在本地维护一份代码库，并能够与其他开发者的代码库进行同步，不必依赖集中式的服务器。
+强大的分支和合并功能：Git 提供了非常方便的分支和合并功能，支持同时存在多个分支，并能够轻松地将不同分支的代码合并到一起。
+高效的性能：Git 采用了一种特殊的存储方式，能够在处理大量数据时快速执行，同时还支持各种优化技术，能够在实际使用中保持高效率。
+灵活的工作流程：Git 提供了非常灵活的工作流程，可以适应各种不同的开发场景，比如中央式工作流、集成式工作流、分支式工作流等。
+安全的代码保护：Git 提供了非常多的安全措施，能够保护代码库的安全，防止代码的丢失、篡改等。
+总的来说，Git 是一款功能强大、灵活、高效、安全的版本控制系统，被广泛应用于各种软件开发和协作场景中。无论是个人开发者还是企业团队，都可以使用 Git 来更好地管理和维护自己的代码。</description>
+    </item>
+    
+    <item>
+      <title>部署log</title>
+      <link>https://TW-githubs.github.io/post/%E9%83%A8%E7%BD%B2log/</link>
+      <pubDate>Sat, 01 Apr 2023 15:38:59 +0800</pubDate>
+      
+      <guid>https://TW-githubs.github.io/post/%E9%83%A8%E7%BD%B2log/</guid>
+      <description>部署博客 1.搭建博客 首先，去GitHub主页下载 hugo（注意Windows用户需要下载_extend版本，否则运行报错）：
+https://github.com/gohugoio/hugo/releases
+然后配置环境变量：将hugo.exe所在目录添加到系统环境变量Path下。
+打开终端验证环境变量：
+hugo version 新建一个文件夹，并在其下利用hugo创建博客
+hugo new site myblog 2.下载主题 下载主题喜欢的主题，并且按照主题要求安装，修改 config.toml
+https://themes.gohugo.io/
+启动博客
+hugo server -D 根据提示，进入 localhost:1313 查看结果
+3.创建文章 输入命令
+hugo new post/first.md 这时在 myblog/content/post 目录下有刚创建的文章
+打开文件进行编辑，写成你的笔记
+随后输入命令：
+hugo server -D 就可以看到修改。
+4.部署到github上 1.在Github上新建仓库 username.github.io，注意 一定是 username.github.io，username 为你的 Github 用户名
+2.将 myblog/public 目录 push 到刚创建仓库的 master 分支
+cd public git init git add . git commit -m &amp;quot;message&amp;quot; git remote add origin https://github.com/wjl-lab/wjl-lab.github.io.git git push -u origin master 访问网站 wjl-lab.</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://TW-githubs.github.io/post/first/</link>
+      <pubDate>Sat, 01 Apr 2023 15:34:31 +0800</pubDate>
+      
+      <guid>https://TW-githubs.github.io/post/first/</guid>
+      <description>这是我小试牛刀的笔记 </description>
+    </item>
+    
+  </channel>
+</rss>
